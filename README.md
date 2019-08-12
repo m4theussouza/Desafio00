@@ -1,4 +1,4 @@
-### Pequena rotina de automação usando Java, JUinit, Selenium WebDriver e Maven.(Windows 7 x64 e Chrome 75) 
+### Pequena rotina de automação usando Java, JUinit, Selenium WebDriver e Maven. (Windows 7, 8, 10 x64 e Chrome 75) 
 #### Usaremos o Java como a linguem para o desenvolvimento da aplicação. 
 #### O JUinit é uma framework Java para testar os resultados gerados pelos métodos e caso a resposta não seja a esperada ele nos mostra os possíveis erros no método. Ele tem alguns métodos pré definidos para organizar o teste como um método de setup inicial, o método onde ocorre o teste, e um método para ser executado no final do test.
 #### A Selenium WebDriver é uma ferramenta com suporte a várias linguagens que faz rapidamente a automação de testes de sistemas se passando por um usuário real desse sistema,  fazendo a interação diretamente pelo navegador. Para cada navegador é necessário um arquivo webdriver diferente e ao menos no caso do chrome existe um webdriver para cada versão do navegador sendo necessário atenção na hora de realizar o download. 
