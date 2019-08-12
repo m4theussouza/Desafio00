@@ -1,4 +1,4 @@
-### Pequena rotina de automação usando Java, JUinit, Selenium WebDriver e Maven.(Windows 7 e Chrome 75) 
+### Pequena rotina de automação usando Java, JUinit, Selenium WebDriver e Maven.(Windows 7 x64 e Chrome 75) 
 #### Usaremos o Java como a linguem para o desenvolvimento da aplicação. 
 #### O JUinit é uma framework Java para testar os resultados gerados pelos métodos e caso a resposta não seja a esperada ele nos mostra os possíveis erros no método. Ele tem alguns métodos pré definidos para organizar o teste como um método de setup inicial, o método onde ocorre o teste, e um método para ser executado no final do test.
 #### A Selenium WebDriver é uma ferramenta com suporte a várias linguagens que faz rapidamente a automação de testes de sistemas se passando por um usuário real desse sistema,  fazendo a interação diretamente pelo navegador. Para cada navegador é necessário um arquivo webdriver diferente e ao menos no caso do chrome existe um webdriver para cada versão do navegador sendo necessário atenção na hora de realizar o download. 
@@ -6,7 +6,7 @@
 
 ### Downloads necessários
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 - Baixe e instale o [Java SDK 12](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html). Necessário para rodar as aplicações em Java. 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 - Baixe e instale o [Java SDK 12](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html) para Windows x64. Necessário para rodar as aplicações em Java. 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 - Baixe e instale o [Eclipse](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2019-06/R/eclipse-inst-win64.exe). IDE usada para desenvolver e rodar a aplicação.
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 - Baixe e descompacte o [WebDriver Chrome](https://chromedriver.chromium.org/downloads). Recomendo que adicione o arquivo na raiz do HD para facilitar o caminho até ele.
 ### 
