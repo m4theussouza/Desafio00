@@ -1,5 +1,5 @@
 ### Pequena rotina de automação usando Java, JUinit, Selenium WebDriver e Maven.(Windows 7 e Chrome 75) 
-#### Usaremos o java como a linguem para aplicação. 
+#### Usaremos o Java como a linguem para o desenvolvimento da aplicação. 
 #### O JUinit é uma framework Java para testar os resultados gerados pelos métodos e caso a resposta não seja a esperada ele nos mostra os possíveis erros no método. Ele tem alguns métodos pré definidos para organizar o teste como um método de setup inicial, o método onde ocorre o teste, e um método para ser executado no final do test.
 #### A Selenium WebDriver é uma ferramenta com suporte a várias linguagens que faz rapidamente a automação de testes de sistemas se passando por um usuário real desse sistema,  fazendo a interação diretamente pelo navegador. Para cada navegador é necessário um arquivo webdriver diferente e ao menos no caso do chrome existe um webdriver para cada versão do navegador sendo necessário atenção na hora de realizar o download. 
 #### O Apache Maven é uma ferramenta de automação de compilação (ato de criar scripts ou automação de uma grande variedade de tarefas) que permite através do arquivo [pom.xml](https://github.com/m4theussouza/Desafio00/blob/master/pom.xml) baixar as bibliotecas Java e seus plugins. 
@@ -10,7 +10,7 @@
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 - Baixe e instale o [Eclipse](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2019-06/R/eclipse-inst-win64.exe). IDE usada para desenvolver e rodar a aplicação.
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 - Baixe e descompacte o [WebDriver Chrome](https://chromedriver.chromium.org/downloads). Recomendo que adicione o arquivo na raiz do HD para facilitar o caminho até ele.
 ### 
-### Iniciando a aplicação
+### Configurando ambiente e rodando a aplicação.
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 - Abra o Eclipse e na tela inicial do eclipse vá em _File -> New -> Project..._
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 - Na janela que se abre selecione _Maven -> Maven Project_
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 - Na próxima janela marque a opção _Create a simple project (skip archetype selection)_ para que ele não crie arquivos desnecessários nesse momento no projeto
@@ -23,4 +23,5 @@
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 - Abra o arquivo _testResgitration_ e vá até a linha 26:
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");_
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No segundo argumento do método setProperty passe como argumento o caminho do webdriver baixado e salve o arquivo.
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 - Clique no botão Run do eclipse para iniciar a aplicação. Se tudo foi feito corretamente a aplicação deve iniciar abrindo o chrome, entrar no site _https://www.phptravels.net/admin/_, fazer o cadastro de um usuário e testar se o email cadastrado está correto. Caso queira com que o navegador seja finalizado após o cadastro e a verificação descomente a linha 52 do arquivo _testResgitration_.
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11 - Clique no botão Run do eclipse para iniciar a aplicação. Se tudo foi feito corretamente a aplicação deve iniciar abrindo o chrome, entrar no site _https://www.phptravels.net/admin/_, fazer o cadastro de um usuário e testar se o email cadastrado está correto. Caso queira com que o navegador seja finalizado após o cadastro e a verificação descomente a linha 52 do arquivo _testResgitration_.
+#### Agora temos um ambiente configurado para desenvolver e rodar aplicações de automação de teste de sistemas com Java, Selenium WebDriver e JUnit.
