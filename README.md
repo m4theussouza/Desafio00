@@ -10,7 +10,7 @@
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 - Baixe e instale o [Eclipse](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2019-06/R/eclipse-inst-win64.exe). IDE usada para desenvolver e rodar a aplicação.
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 - Baixe e descompacte o [WebDriver Chrome](https://chromedriver.chromium.org/downloads). Recomendo que adicione o arquivo na raiz do HD para facilitar o caminho até ele.
 ### 
-### Iniciando desenvolvimento
+### Iniciando a aplicação
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 - Abra o Eclipse e na tela inicial do eclipse vá em _File -> New -> Project..._
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 - Na janela que se abre selecione _Maven -> Maven Project_
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 - Na próxima janela marque a opção _Create a simple project (skip archetype selection)_ para que ele não crie arquivos desnecessários nesse momento no projeto
