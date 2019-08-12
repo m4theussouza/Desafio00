@@ -22,6 +22,6 @@
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9 - Faça a mesma coisa do passo anterior mas para o pacote de nome _page_ e para a pasta de nome _page_ importando os [5 arquivos disponibilizados](https://github.com/m4theussouza/Desafio00/tree/master/page).
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 - Abra o arquivo _testResgitration_ e vá até a linha 26:
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");_
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No segundo argumento do método setProperty passe como argumento o caminho do webdriver baixado e salve o arquivo.
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No segundo argumento do método setProperty passe o caminho do arquivo .exe do webdriver baixado e salve o arquivo.
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11 - Clique no botão Run do eclipse para iniciar a aplicação. Se tudo foi feito corretamente a aplicação deve iniciar abrindo o chrome, entrar no site _https://www.phptravels.net/admin/_, fazer o cadastro de um usuário e testar se o email cadastrado está correto. Caso queira com que o navegador seja finalizado após o cadastro e a verificação descomente a linha 52 do arquivo _testResgitration_.
 #### Agora temos um ambiente configurado para desenvolver e rodar aplicações de automação de teste de sistemas com Java, Selenium WebDriver e JUnit.
